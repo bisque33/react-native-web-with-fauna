@@ -1,3 +1,20 @@
+# react-native-web-with-fauna
+
+This is a sample application using GraphQL in FaunaDB.
+
+## Demo
+
+![demo](./demo.gif)
+
+## Setup
+
+- SignUp to [FaunaDB](https://fauna.com/)
+- Create database
+- Upload `./schema.gql`
+- Generate security key and run `$ echo 'export REACT_APP_FAUNADB_API_KEY={key}' > .env`
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
